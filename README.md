@@ -1,16 +1,20 @@
-# React + Vite
+# 🛡️ DeskGuard - (https://deskguard-portal.vercel.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Premium Library Space Management Portal**
 
-Currently, two official plugins are available:
+DeskGuard is a modern web application built to streamline the management of premium library and study spaces. It provides a seamless interface for users to book desks and for administrators to manage space allocation effectively.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Role-Based Access Control:** Distinct portals and dashboards for **Students** and **Administrators**.
+- **Interactive UI:** Smooth transitions and state management for logging in and accessing dashboards.
+- **Real-Time Notifications:** Integrated toast notifications for user feedback and actions.
+- **Modern Design:** Built with React and structured for scalability.
+- **Fast Development:** Powered by Vite for instant server start and lightning-fast HMR.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** [React](https://reactjs.org/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Routing/State:** React standard hooks (e.g., managing user types and page states)
+- **Deployment:** [Vercel](https://vercel.com/)
