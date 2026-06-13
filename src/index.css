@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+  --font-heading: 'Playfair Display', 'Editorial New', Georgia, serif;
+  --font-sans: 'DM Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'DM Mono', monospace;
+
+  /* Academic Champagne-Gold & Matte-Charcoal Theme */
+  --bg: #050505;
+  --surface: #0a0a0a;
+  --surface2: #121212;
+  --card: #0f0f0f;
+  --card-hover: #161616;
+  --border: #1f1f1f;
+  --border-light: rgba(255, 255, 255, 0.02);
+  
+  --primary: #cda052; /* Champagne Gold */
+  --primary-dim: #b58d46;
+  --primary-glow: rgba(205, 160, 82, 0.04);
+  --primary-border: rgba(205, 160, 82, 0.15);
+  
+  --secondary: #6e8294; /* Soft Steel Blue */
+  --secondary-dim: #5c6e7f;
+  --secondary-glow: rgba(110, 130, 148, 0.04);
+  --secondary-border: rgba(110, 130, 148, 0.15);
+  
+  --success: #10b981;
+  --success-glow: rgba(16, 185, 129, 0.06);
+  --success-border: rgba(16, 185, 129, 0.15);
+  
+  --warning: #f59e0b;
+  --warning-glow: rgba(245, 158, 11, 0.06);
+  --warning-border: rgba(245, 158, 11, 0.15);
+  
+  --danger: #ef4444;
+  --danger-glow: rgba(239, 68, 68, 0.06);
+  --danger-border: rgba(239, 68, 68, 0.15);
+  
+  --text: #f5f5f7;
+  --text-muted: #6e6e73;
+  --text-dim: #a1a1a6;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.25), 0 4px 6px -2px rgba(0, 0, 0, 0.15);
+  --shadow-glow: 0 0 15px rgba(205, 160, 82, 0.08);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  height: 100%;
+  overflow-x: hidden;
+  line-height: 1.5;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+/* Custom premium scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-dim);
+}
+
+/* Selection highlight */
+::selection {
+  background: var(--primary-border);
+  color: var(--primary);
+}
